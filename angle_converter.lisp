@@ -1,14 +1,15 @@
 (in-package :geotools-library)
+
 ;;the *angular-units* lookup table has stored the name of each unit and the required ammount to
 ;;complete a circle
 
 (defvar *angular-units* (alexandria:alist-hash-table 
   '(
-    (grads . 400)
-    (degrees . 360)
-    (radians . 6.28318530718)
-    (revolutions . 1)
-    (hour . 24)
+    (:grads . 400)
+    (:degrees . 360)
+    (:radians . 6.28318530718)
+    (:revolutions . 1)
+    (:hours . 24)
     ))
   )
 
