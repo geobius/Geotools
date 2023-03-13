@@ -13,6 +13,11 @@
    #:decimal->sexadecimal
    #:sexadecimal->decimal
    #:angular-unit-convertion
+
+   #:forward-geodetic
+   #:reverse-geodetic
+   #:tachimetry
+   #:traversing
    ))
 
   
